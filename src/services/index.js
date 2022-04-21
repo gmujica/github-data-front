@@ -7,7 +7,7 @@ export const getUserData = async () => {
     } catch (err) {
       console.error(err);
     };
-};
+}; 
 
 export const getCommitsData = async () => {
     try{

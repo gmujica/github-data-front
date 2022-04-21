@@ -1,27 +1,27 @@
 import * as React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
-import { getUserData } from '../services';
+import { getUserData, getCommitsData } from '../services';
 import { useState } from 'react';
+import Data from '../data.json';
+import Paper from '@mui/material/Paper';
 
 export default function SimpleContainer() {
-  const [userData, setUserData] = useState([]);
+  const [commitsData, setCommitsData] = useState([]);
 
     useState(() => {
-        getUserData();
-        setUserData(getUserData);
-
+      setCommitsData(getCommitsData);
     }, []);
 
   return (
     <>
       <CssBaseline />
       <Container maxWidth="sm">
-        {/*<div key={userData.id}>
-          {userData.map(user => {
-            <div>{user}</div>
-          })}
-        </div>*/}
+        <div>
+          {commitsData.map( commit => (
+            <p>{commit.comments_url}</p>
+          ))}
+        </div>
       </Container>
     </>
   );
