@@ -1,0 +1,878 @@
+[
+    {
+      "sha": "a863d6a626cbf796da46603b40755a89ce451141",
+      "node_id": "C_kwDOHNWttdoAKGE4NjNkNmE2MjZjYmY3OTZkYTQ2NjAzYjQwNzU1YTg5Y2U0NTExNDE",
+      "commit": {
+        "author": {
+          "name": "Gregory Mujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T21:23:07Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-04-20T21:23:07Z"
+        },
+        "message": "Merge pull request #2 from gmujica/dev\n\nNew structure and README file added",
+        "tree": {
+          "sha": "57e2c6b6252dbad2b67d41a71f9c45e451888c7f",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/git/trees/57e2c6b6252dbad2b67d41a71f9c45e451888c7f"
+        },
+        "url": "https://api.github.com/repos/gmujica/github-node-api/git/commits/a863d6a626cbf796da46603b40755a89ce451141",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiYHm7CRBK7hj4Ov3rIwAApmkIAGRyVje1wI3vXbYy/K484UIx\nll5aqSfnzmjQKoqed4+cBe010xjmFMLAaZnycOxsEtIXtUdcCq+hGfoqQP36rxYV\n6dh/X3PdE5EBU2cv8ABPcuJ3eAH4geetJ0zIfaCROiyeGru6r3FKXqC2Z0i+9SOb\nub9bPXRO6hUh3a7VZlKrgEmzgzUz7fEob1mtfHL4Ddm7HZfHlubQpqp2MeQZIToK\naaZLEP6/FXbwbWGftY7DJLAOZg3UWLAJFgMoYZkLWdmv0eUw3wNTlPXFPPBrmkG4\nf0ifvmqoOgNbZ0TDfCBNXLiI+V8Qi2+4kVDr8l4ck/2eAwg2PivmUOB/+9+kUEc=\n=Ti3H\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 57e2c6b6252dbad2b67d41a71f9c45e451888c7f\nparent 4517fa4c3402abbcc28cc29b677ab2807bb5f20d\nparent 040f0130b89ded82adb943aaa983fe408db49d43\nauthor Gregory Mujica <gregorymujica1993@gmail.com> 1650489787 -0500\ncommitter GitHub <noreply@github.com> 1650489787 -0500\n\nMerge pull request #2 from gmujica/dev\n\nNew structure and README file added"
+        }
+      },
+      "url": "https://api.github.com/repos/gmujica/github-node-api/commits/a863d6a626cbf796da46603b40755a89ce451141",
+      "html_url": "https://github.com/gmujica/github-node-api/commit/a863d6a626cbf796da46603b40755a89ce451141",
+      "comments_url": "https://api.github.com/repos/gmujica/github-node-api/commits/a863d6a626cbf796da46603b40755a89ce451141/comments",
+      "author": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4517fa4c3402abbcc28cc29b677ab2807bb5f20d",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/commits/4517fa4c3402abbcc28cc29b677ab2807bb5f20d",
+          "html_url": "https://github.com/gmujica/github-node-api/commit/4517fa4c3402abbcc28cc29b677ab2807bb5f20d"
+        },
+        {
+          "sha": "040f0130b89ded82adb943aaa983fe408db49d43",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/commits/040f0130b89ded82adb943aaa983fe408db49d43",
+          "html_url": "https://github.com/gmujica/github-node-api/commit/040f0130b89ded82adb943aaa983fe408db49d43"
+        }
+      ]
+    },
+    {
+      "sha": "040f0130b89ded82adb943aaa983fe408db49d43",
+      "node_id": "C_kwDOHNWttdoAKDA0MGYwMTMwYjg5ZGVkODJhZGI5NDNhYWE5ODNmZTQwOGRiNDlkNDM",
+      "commit": {
+        "author": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T21:21:50Z"
+        },
+        "committer": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T21:21:50Z"
+        },
+        "message": "new structure added",
+        "tree": {
+          "sha": "57e2c6b6252dbad2b67d41a71f9c45e451888c7f",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/git/trees/57e2c6b6252dbad2b67d41a71f9c45e451888c7f"
+        },
+        "url": "https://api.github.com/repos/gmujica/github-node-api/git/commits/040f0130b89ded82adb943aaa983fe408db49d43",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/gmujica/github-node-api/commits/040f0130b89ded82adb943aaa983fe408db49d43",
+      "html_url": "https://github.com/gmujica/github-node-api/commit/040f0130b89ded82adb943aaa983fe408db49d43",
+      "comments_url": "https://api.github.com/repos/gmujica/github-node-api/commits/040f0130b89ded82adb943aaa983fe408db49d43/comments",
+      "author": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "051d3586716a91ea77912f55d0127ec4d92185e7",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/commits/051d3586716a91ea77912f55d0127ec4d92185e7",
+          "html_url": "https://github.com/gmujica/github-node-api/commit/051d3586716a91ea77912f55d0127ec4d92185e7"
+        }
+      ]
+    },
+    {
+      "sha": "051d3586716a91ea77912f55d0127ec4d92185e7",
+      "node_id": "C_kwDOHNWttdoAKDA1MWQzNTg2NzE2YTkxZWE3NzkxMmY1NWQwMTI3ZWM0ZDkyMTg1ZTc",
+      "commit": {
+        "author": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T21:02:53Z"
+        },
+        "committer": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T21:02:53Z"
+        },
+        "message": "new structure implemented",
+        "tree": {
+          "sha": "96529b18f474adb866b9f92168ac51f85e1fc725",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/git/trees/96529b18f474adb866b9f92168ac51f85e1fc725"
+        },
+        "url": "https://api.github.com/repos/gmujica/github-node-api/git/commits/051d3586716a91ea77912f55d0127ec4d92185e7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/gmujica/github-node-api/commits/051d3586716a91ea77912f55d0127ec4d92185e7",
+      "html_url": "https://github.com/gmujica/github-node-api/commit/051d3586716a91ea77912f55d0127ec4d92185e7",
+      "comments_url": "https://api.github.com/repos/gmujica/github-node-api/commits/051d3586716a91ea77912f55d0127ec4d92185e7/comments",
+      "author": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4e7bcd175313eafe5f420300aa89e886787201bf",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/commits/4e7bcd175313eafe5f420300aa89e886787201bf",
+          "html_url": "https://github.com/gmujica/github-node-api/commit/4e7bcd175313eafe5f420300aa89e886787201bf"
+        }
+      ]
+    },
+    {
+      "sha": "4e7bcd175313eafe5f420300aa89e886787201bf",
+      "node_id": "C_kwDOHNWttdoAKDRlN2JjZDE3NTMxM2VhZmU1ZjQyMDMwMGFhODllODg2Nzg3MjAxYmY",
+      "commit": {
+        "author": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T20:41:26Z"
+        },
+        "committer": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T20:41:26Z"
+        },
+        "message": "commits endpoin added",
+        "tree": {
+          "sha": "0bda5d69aaed5785e4ecd8cfb98fb48a1e82e733",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/git/trees/0bda5d69aaed5785e4ecd8cfb98fb48a1e82e733"
+        },
+        "url": "https://api.github.com/repos/gmujica/github-node-api/git/commits/4e7bcd175313eafe5f420300aa89e886787201bf",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/gmujica/github-node-api/commits/4e7bcd175313eafe5f420300aa89e886787201bf",
+      "html_url": "https://github.com/gmujica/github-node-api/commit/4e7bcd175313eafe5f420300aa89e886787201bf",
+      "comments_url": "https://api.github.com/repos/gmujica/github-node-api/commits/4e7bcd175313eafe5f420300aa89e886787201bf/comments",
+      "author": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "332c6654e70ee42b61c8207d362bbf2c7ee54a6d",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/commits/332c6654e70ee42b61c8207d362bbf2c7ee54a6d",
+          "html_url": "https://github.com/gmujica/github-node-api/commit/332c6654e70ee42b61c8207d362bbf2c7ee54a6d"
+        }
+      ]
+    },
+    {
+      "sha": "332c6654e70ee42b61c8207d362bbf2c7ee54a6d",
+      "node_id": "C_kwDOHNWttdoAKDMzMmM2NjU0ZTcwZWU0MmI2MWM4MjA3ZDM2MmJiZjJjN2VlNTRhNmQ",
+      "commit": {
+        "author": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T20:26:53Z"
+        },
+        "committer": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T20:26:53Z"
+        },
+        "message": "repository info endpoin added",
+        "tree": {
+          "sha": "957e3624776a640b84424e9a9c98c3bd30ca77e8",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/git/trees/957e3624776a640b84424e9a9c98c3bd30ca77e8"
+        },
+        "url": "https://api.github.com/repos/gmujica/github-node-api/git/commits/332c6654e70ee42b61c8207d362bbf2c7ee54a6d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/gmujica/github-node-api/commits/332c6654e70ee42b61c8207d362bbf2c7ee54a6d",
+      "html_url": "https://github.com/gmujica/github-node-api/commit/332c6654e70ee42b61c8207d362bbf2c7ee54a6d",
+      "comments_url": "https://api.github.com/repos/gmujica/github-node-api/commits/332c6654e70ee42b61c8207d362bbf2c7ee54a6d/comments",
+      "author": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6c1f0dace3dca9dd08e0b22a3730549e9c86c842",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/commits/6c1f0dace3dca9dd08e0b22a3730549e9c86c842",
+          "html_url": "https://github.com/gmujica/github-node-api/commit/6c1f0dace3dca9dd08e0b22a3730549e9c86c842"
+        }
+      ]
+    },
+    {
+      "sha": "4517fa4c3402abbcc28cc29b677ab2807bb5f20d",
+      "node_id": "C_kwDOHNWttdoAKDQ1MTdmYTRjMzQwMmFiYmNjMjhjYzI5YjY3N2FiMjgwN2JiNWYyMGQ",
+      "commit": {
+        "author": {
+          "name": "Gregory Mujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T20:06:09Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-04-20T20:06:09Z"
+        },
+        "message": "Merge pull request #1 from gmujica/dev\n\nget user info (basic)",
+        "tree": {
+          "sha": "cc2756658b530b063b1a102abc542c4cd8342f06",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/git/trees/cc2756658b530b063b1a102abc542c4cd8342f06"
+        },
+        "url": "https://api.github.com/repos/gmujica/github-node-api/git/commits/4517fa4c3402abbcc28cc29b677ab2807bb5f20d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiYGexCRBK7hj4Ov3rIwAATWEIAGanRlOYXZhqrzXeX/SNutxD\nBxIPvtDzSCpGkUTobdhZSRIOaW45XdhXeMvOPsNr8M3tfR9lMjpwkj9kZb7WQJi2\nNNSMqFOsIfL7nGH9z3ln9WiifQfDercIKcnfbWimYjqInWDoGhzLuSdRLmwzFu8d\njia5VRFaMqz71aAFcKtzUs4cdnympKcmYR9A8dzB5USCP94KnKtdjfDNwpS3VGzG\n3UX8+HpCGvew+Z1uGMlNs2xZO5lSUDlPK8l3yWguZnHEOHsmrxz2oQoa6wyXksWx\nE8JxJYiDFmZ5Qc5gqKtkRBO3MDoOzcMtQ0OrcAJK9OvfFmv+kaOW0uVAUXS5nB8=\n=UYF8\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree cc2756658b530b063b1a102abc542c4cd8342f06\nparent 46f6bf1b7e2f8726e7c2d330cc747d48baea5feb\nparent 6c1f0dace3dca9dd08e0b22a3730549e9c86c842\nauthor Gregory Mujica <gregorymujica1993@gmail.com> 1650485169 -0500\ncommitter GitHub <noreply@github.com> 1650485169 -0500\n\nMerge pull request #1 from gmujica/dev\n\nget user info (basic)"
+        }
+      },
+      "url": "https://api.github.com/repos/gmujica/github-node-api/commits/4517fa4c3402abbcc28cc29b677ab2807bb5f20d",
+      "html_url": "https://github.com/gmujica/github-node-api/commit/4517fa4c3402abbcc28cc29b677ab2807bb5f20d",
+      "comments_url": "https://api.github.com/repos/gmujica/github-node-api/commits/4517fa4c3402abbcc28cc29b677ab2807bb5f20d/comments",
+      "author": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "46f6bf1b7e2f8726e7c2d330cc747d48baea5feb",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/commits/46f6bf1b7e2f8726e7c2d330cc747d48baea5feb",
+          "html_url": "https://github.com/gmujica/github-node-api/commit/46f6bf1b7e2f8726e7c2d330cc747d48baea5feb"
+        },
+        {
+          "sha": "6c1f0dace3dca9dd08e0b22a3730549e9c86c842",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/commits/6c1f0dace3dca9dd08e0b22a3730549e9c86c842",
+          "html_url": "https://github.com/gmujica/github-node-api/commit/6c1f0dace3dca9dd08e0b22a3730549e9c86c842"
+        }
+      ]
+    },
+    {
+      "sha": "6c1f0dace3dca9dd08e0b22a3730549e9c86c842",
+      "node_id": "C_kwDOHNWttdoAKDZjMWYwZGFjZTNkY2E5ZGQwOGUwYjIyYTM3MzA1NDllOWM4NmM4NDI",
+      "commit": {
+        "author": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T20:04:44Z"
+        },
+        "committer": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T20:04:44Z"
+        },
+        "message": "get user info (stable)",
+        "tree": {
+          "sha": "cc2756658b530b063b1a102abc542c4cd8342f06",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/git/trees/cc2756658b530b063b1a102abc542c4cd8342f06"
+        },
+        "url": "https://api.github.com/repos/gmujica/github-node-api/git/commits/6c1f0dace3dca9dd08e0b22a3730549e9c86c842",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/gmujica/github-node-api/commits/6c1f0dace3dca9dd08e0b22a3730549e9c86c842",
+      "html_url": "https://github.com/gmujica/github-node-api/commit/6c1f0dace3dca9dd08e0b22a3730549e9c86c842",
+      "comments_url": "https://api.github.com/repos/gmujica/github-node-api/commits/6c1f0dace3dca9dd08e0b22a3730549e9c86c842/comments",
+      "author": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "edd4f02def8ef5442ff1d553a74ceb59ace1a1c8",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/commits/edd4f02def8ef5442ff1d553a74ceb59ace1a1c8",
+          "html_url": "https://github.com/gmujica/github-node-api/commit/edd4f02def8ef5442ff1d553a74ceb59ace1a1c8"
+        }
+      ]
+    },
+    {
+      "sha": "edd4f02def8ef5442ff1d553a74ceb59ace1a1c8",
+      "node_id": "C_kwDOHNWttdoAKGVkZDRmMDJkZWY4ZWY1NDQyZmYxZDU1M2E3NGNlYjU5YWNlMWExYzg",
+      "commit": {
+        "author": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T18:47:33Z"
+        },
+        "committer": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T18:47:33Z"
+        },
+        "message": "minimal change",
+        "tree": {
+          "sha": "fa04da90505f6f0c2fc83b9763d0e171dce7eafd",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/git/trees/fa04da90505f6f0c2fc83b9763d0e171dce7eafd"
+        },
+        "url": "https://api.github.com/repos/gmujica/github-node-api/git/commits/edd4f02def8ef5442ff1d553a74ceb59ace1a1c8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/gmujica/github-node-api/commits/edd4f02def8ef5442ff1d553a74ceb59ace1a1c8",
+      "html_url": "https://github.com/gmujica/github-node-api/commit/edd4f02def8ef5442ff1d553a74ceb59ace1a1c8",
+      "comments_url": "https://api.github.com/repos/gmujica/github-node-api/commits/edd4f02def8ef5442ff1d553a74ceb59ace1a1c8/comments",
+      "author": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f9d75fceea6f6c5608de72d0e859337f1619b538",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/commits/f9d75fceea6f6c5608de72d0e859337f1619b538",
+          "html_url": "https://github.com/gmujica/github-node-api/commit/f9d75fceea6f6c5608de72d0e859337f1619b538"
+        }
+      ]
+    },
+    {
+      "sha": "f9d75fceea6f6c5608de72d0e859337f1619b538",
+      "node_id": "C_kwDOHNWttdoAKGY5ZDc1ZmNlZWE2ZjZjNTYwOGRlNzJkMGU4NTkzMzdmMTYxOWI1Mzg",
+      "commit": {
+        "author": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T18:37:11Z"
+        },
+        "committer": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T18:37:11Z"
+        },
+        "message": "git ignore added",
+        "tree": {
+          "sha": "8c813ca5766c7735281398f80b4e6b3a97cfd999",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/git/trees/8c813ca5766c7735281398f80b4e6b3a97cfd999"
+        },
+        "url": "https://api.github.com/repos/gmujica/github-node-api/git/commits/f9d75fceea6f6c5608de72d0e859337f1619b538",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/gmujica/github-node-api/commits/f9d75fceea6f6c5608de72d0e859337f1619b538",
+      "html_url": "https://github.com/gmujica/github-node-api/commit/f9d75fceea6f6c5608de72d0e859337f1619b538",
+      "comments_url": "https://api.github.com/repos/gmujica/github-node-api/commits/f9d75fceea6f6c5608de72d0e859337f1619b538/comments",
+      "author": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1c7d43f546eceb4d2acc284e6333213518454fc3",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/commits/1c7d43f546eceb4d2acc284e6333213518454fc3",
+          "html_url": "https://github.com/gmujica/github-node-api/commit/1c7d43f546eceb4d2acc284e6333213518454fc3"
+        }
+      ]
+    },
+    {
+      "sha": "1c7d43f546eceb4d2acc284e6333213518454fc3",
+      "node_id": "C_kwDOHNWttdoAKDFjN2Q0M2Y1NDZlY2ViNGQyYWNjMjg0ZTYzMzMyMTM1MTg0NTRmYzM",
+      "commit": {
+        "author": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T18:34:56Z"
+        },
+        "committer": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T18:34:56Z"
+        },
+        "message": "simple server structure",
+        "tree": {
+          "sha": "c1001573e4304b84b0aa88a317185f339e3601e7",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/git/trees/c1001573e4304b84b0aa88a317185f339e3601e7"
+        },
+        "url": "https://api.github.com/repos/gmujica/github-node-api/git/commits/1c7d43f546eceb4d2acc284e6333213518454fc3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/gmujica/github-node-api/commits/1c7d43f546eceb4d2acc284e6333213518454fc3",
+      "html_url": "https://github.com/gmujica/github-node-api/commit/1c7d43f546eceb4d2acc284e6333213518454fc3",
+      "comments_url": "https://api.github.com/repos/gmujica/github-node-api/commits/1c7d43f546eceb4d2acc284e6333213518454fc3/comments",
+      "author": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "46f6bf1b7e2f8726e7c2d330cc747d48baea5feb",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/commits/46f6bf1b7e2f8726e7c2d330cc747d48baea5feb",
+          "html_url": "https://github.com/gmujica/github-node-api/commit/46f6bf1b7e2f8726e7c2d330cc747d48baea5feb"
+        }
+      ]
+    },
+    {
+      "sha": "46f6bf1b7e2f8726e7c2d330cc747d48baea5feb",
+      "node_id": "C_kwDOHNWttdoAKDQ2ZjZiZjFiN2UyZjg3MjZlN2MyZDMzMGNjNzQ3ZDQ4YmFlYTVmZWI",
+      "commit": {
+        "author": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T18:16:44Z"
+        },
+        "committer": {
+          "name": "gmujica",
+          "email": "gregorymujica1993@gmail.com",
+          "date": "2022-04-20T18:16:44Z"
+        },
+        "message": "first commit",
+        "tree": {
+          "sha": "76cd4bfa69e0158438783057522a34857d74af81",
+          "url": "https://api.github.com/repos/gmujica/github-node-api/git/trees/76cd4bfa69e0158438783057522a34857d74af81"
+        },
+        "url": "https://api.github.com/repos/gmujica/github-node-api/git/commits/46f6bf1b7e2f8726e7c2d330cc747d48baea5feb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/gmujica/github-node-api/commits/46f6bf1b7e2f8726e7c2d330cc747d48baea5feb",
+      "html_url": "https://github.com/gmujica/github-node-api/commit/46f6bf1b7e2f8726e7c2d330cc747d48baea5feb",
+      "comments_url": "https://api.github.com/repos/gmujica/github-node-api/commits/46f6bf1b7e2f8726e7c2d330cc747d48baea5feb/comments",
+      "author": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "gmujica",
+        "id": 11530477,
+        "node_id": "MDQ6VXNlcjExNTMwNDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11530477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gmujica",
+        "html_url": "https://github.com/gmujica",
+        "followers_url": "https://api.github.com/users/gmujica/followers",
+        "following_url": "https://api.github.com/users/gmujica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gmujica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gmujica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gmujica/subscriptions",
+        "organizations_url": "https://api.github.com/users/gmujica/orgs",
+        "repos_url": "https://api.github.com/users/gmujica/repos",
+        "events_url": "https://api.github.com/users/gmujica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gmujica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+  
+      ]
+    }
+  ]
+  

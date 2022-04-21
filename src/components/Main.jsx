@@ -1,28 +1,31 @@
-import * as React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
-import Container from '@mui/material/Container';
-import { getUserData, getCommitsData } from '../services';
-import { useState } from 'react';
-import Data from '../data.json';
-import Paper from '@mui/material/Paper';
+import React, { useState, useEffect } from 'react';
+
 
 export default function SimpleContainer() {
-  const [commitsData, setCommitsData] = useState([]);
+  const [commit, setCommit] = useState([]);
 
-    useState(() => {
-      setCommitsData(getCommitsData);
-    }, []);
+  const fetchData = async () => {
+    const res = await fetch('http://localhost:5000/api/github/commitinfo/gmujica/github-node-api');
+    const json = await res.json();
+    console.log('JSON RESP:', json);
+
+    setCommit(json)
+    
+  }
+  console.log('STATE:', commit);
+  
+  useEffect(() => {
+    fetchData()
+  }, [])
+
 
   return (
-    <>
-      <CssBaseline />
-      <Container maxWidth="sm">
-        <div>
-          {commitsData.map( commit => (
-            <p>{commit.comments_url}</p>
-          ))}
-        </div>
-      </Container>
-    </>
+      <div>
+        {commit.map((co, i) => {
+          return 
+            <div key={i}>{co.commit.message}</div>
+        })}
+      </div>
+    
   );
 }

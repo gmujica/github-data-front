@@ -17,6 +17,15 @@ export const getCommitsData = async () => {
       console.log(err);
     };
 };
+/*export const getCommitsData = () => {
+  axios
+      .get("http://localhost:5000/api/github/commitinfo/gmujica/github-node-api")
+      .then(data => this.setState({ users: data.data.data }))
+      .catch(err => {
+          console.log(err);
+          return null;
+      });
+};*/
 
 export const getRepositoryData = async () => {
     try{
