@@ -1,40 +1,13 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import { useState } from 'react';
-import axios from 'axios';
+//import { useState } from 'react';
+import { getUserData, getCommitsData, getRepositoryData } from '../services';
 
 export default function ButtonSizes() {
-  const [userData, setUserData] = useState();
+  //const [userData, setUserData] = useState([]);
   //const [isLoading, setIsLoading] = useState(true);
-  const getUserData = () => {
-    axios.get('http://localhost:5000/api/github/userinfo/gmujica')
-      .then(res => {
-        //setIsLoading(false)
-        setUserData(res.data);  
-        console.log(userData);
-      }).catch(err => {
-        console.log(err);
-    })
-  }
 
-  const getCommitsData = () => {
-    axios.get('http://localhost:5000/api/github/commitinfo/gmujica/github-node-api')
-    .then(res => {
-      console.log(res.data);
-    }).catch(err => {
-      console.log(err);
-    })
-  }
-
-  const getRepositoryData = () => {
-    axios.get('http://localhost:5000/api/github/repoinfo/gmujica/github-node-api')
-    .then(res => {
-      console.log(res.data);
-    }).catch(err => {
-      console.log(err);
-    })
-  }
   return (
     <Box sx={{ '& button': { m:1 } }}>
       <div style={{ textAlign: 'center' }}>
@@ -50,4 +23,4 @@ export default function ButtonSizes() {
       </div>
     </Box>
   );
-}
+};
