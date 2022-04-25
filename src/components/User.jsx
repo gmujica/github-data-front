@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -16,23 +16,37 @@ const bull = (
 );
 
 export default function BasicCard() {
+    const [userData, setUserData] = useState([]);
+  
+    const fetchData = async () => {
+      const res = await fetch('http://localhost:5000/api/github/userinfo/gmujica');
+      const json = await res.json();
+      console.log('JSON RESP:', json);
+  
+      setUserData(json)
+      
+    }
+    console.log('STATE:', userData);
+    
+    useEffect(() => {
+      fetchData()
+    }, [])
+
   return (
     <Card sx={{ minWidth: 275 }}>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-          Word of the Day
+          User Info
         </Typography>
-        <Typography variant="h5" component="div">
-          be{bull}nev{bull}o{bull}lent
-        </Typography>
-        <Typography sx={{ mb: 1.5 }} color="text.secondary">
-          adjective
-        </Typography>
-        <Typography variant="body2">
-          well meaning and kindly.
-          <br />
-          {'"a benevolent smile"'}
-        </Typography>
+            <Typography variant="h5" component="div">
+              {userData.login}
+            </Typography>
+            <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              {userData.bio}
+            </Typography>
+            <Typography variant="body2">
+              {userData.name}
+            </Typography> 
       </CardContent>
       <CardActions>
         <Button size="small">Learn More</Button>
